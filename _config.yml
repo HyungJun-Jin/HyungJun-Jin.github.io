@@ -24,7 +24,7 @@ description              : "AI Robotics"
 url                      : "https://hyungjun-jin.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "HyungJun-Jin/HyungJun-Jin.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : /images/profile/profile_img.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -117,7 +117,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/HyungJun-Jin"
     - label: "Google Scholar"
-      icon: "fab fa-solid fa-graduation-cap"
+      icon: "fa fa-fw graduation-cap"
       url: "https://scholar.google.com/citations?user=9Ynh9AsAAAAJ"
 
 

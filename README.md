@@ -11,7 +11,7 @@ GitHub Desktop + Typora + VScode
 Refer: Quick-Start Guide -> Installation (Official documentation: http://jekyllrb.com/docs/)
 1. Install Ruby (https://rubyinstaller.org/downloads/)
 2. Windows: cmd -> ">gem install jekyll" -> ">gem install bundler" 
-3. Set plugin : Go to blog dir -> open powershell (shift + right click) -> ">bundle install" -> ">bundle add webrick"(Skip next time) -> ">bundle exec jekyll serve"
+3. Set plugin : Go to blog dir -> open powershell (shift + right click) -> ">bundle install" -> ">bundle exec jekyll serve" (If error occur ">bundle add webrick"(Skip next time) + check ' gem "webrick", "~> 1.8" ' in Gemfile)
 4. Check "localhost:4000" in the web
 
 <br/>
