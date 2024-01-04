@@ -1,10 +1,14 @@
+markdown program : Typora
+
+
 `_data/navigation.yml` : Menu
 `_includes/head/custom.html` : favicon
+`_posts` : 이미지 잘 안뜨면 'typora-root-url: ../' 추가해주기 
 
 
-
-
-
+### 실시간 업로드 (로컬 개발환경 구성)
+---
+Quick-Start Guide -> Installation 참고 (official documentation: http://jekyllrb.com/docs/)
 
 
 
