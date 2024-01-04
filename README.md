@@ -1,5 +1,5 @@
 `_data/navigation.yml` : Menu
-
+`_includes/head/custom.html` : favicon
 
 
 
