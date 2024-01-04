@@ -1,42 +1,23 @@
-markdown program : Typora
+GitHub Desktop + Typora + VScode
 
 
-`_data/navigation.yml` : Menu
-`_includes/head/custom.html` : favicon
+`_data/navigation.yml` : Menu\
+`_includes/head/custom.html` : favicon\
 `_posts` : 이미지 잘 안뜨면 'typora-root-url: ../' 추가해주기 
 
 
-### 실시간 업로드 (로컬 개발환경 구성)
+### Fast Check (Local check, not Remote)
 ---
-Quick-Start Guide -> Installation 참고 (official documentation: http://jekyllrb.com/docs/)
+Refer: Quick-Start Guide -> Installation (Official documentation: http://jekyllrb.com/docs/)
+1. Install Ruby (https://rubyinstaller.org/downloads/)
+2. Windows: cmd -> ">gem install jekyll" -> ">gem install bundler" 
+3. Set plugin : Go to blog dir -> open powershell (shift + right click) -> ">bundle install" -> ">bundle add webrick"(Skip next time) -> ">bundle exec jekyll serve"
+4. Check "localhost:4000" in the web
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 
