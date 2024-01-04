@@ -117,7 +117,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/HyungJun-Jin"
     - label: "Google Scholar"
-      icon: "fa fa-fw graduation-cap"
+      icon: "fa fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=9Ynh9AsAAAAJ"
 
 
@@ -137,14 +137,14 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/HyungJun-Jin"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
