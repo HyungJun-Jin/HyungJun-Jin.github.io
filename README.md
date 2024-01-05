@@ -1,10 +1,17 @@
 GitHub Desktop + Typora + VScode
 
-
-`_data/navigation.yml` : Menu\
+`_pages`: Templates ( .html or .md ) are used to make "_data/navigation.yml" as url: /{filename}/\
+`_data/navigation.yml` : Navigation (=Menu)\
 `_includes/head/custom.html` : favicon\
-`_posts` : 이미지 잘 안뜨면 'typora-root-url: ../' 추가해주기 
+`_posts` : 이미지 잘 안뜨면 'typora-root-url: ../' 추가해주기
 
+`_config`\
+Post comments: 
+1. "defaults:" -> values -> comments : true
+2. "comments:" -> provider : [setting]
+
+Google analytics:
+1. "analytics:" -> provider : [setting] (tracking_id)
 
 ### Fast Check (Local check, not Remote)
 ---
@@ -13,6 +20,29 @@ Refer: Quick-Start Guide -> Installation (Official documentation: http://jekyllr
 2. Windows: cmd -> ">gem install jekyll" -> ">gem install bundler" 
 3. Set plugin : Go to blog dir -> open powershell (shift + right click) -> ">bundle install" -> ">bundle exec jekyll serve" (If error occur ">bundle add webrick"(Skip next time) + check ' gem "webrick", "~> 1.8" ' in Gemfile)
 4. Check "localhost:4000" in the web
+
+### add category
+---
+1. 
+_config -> 
+prac_archive:
+   type: liquid
+   path: /category/
+2. 
+_pages ->
+mkdir -> prac_archive.md
+
+
+### CF 
+___
+{% ... %} or {{ ... }} : "Liquid" grammer\
+Rudy based template language\
+Jektll use liquid to rander html -> save to "_site" dir\
+ex) _config -> ...-archive: type: liquid\
+ex) (_config.yaml, title: wow) = {{site.title}} = wow\
+ex) (_data.foramt.yml, name: hi) = {{site.data.name}} = hi
+
+https://fuzzysound.github.io/jekyll-liquid
 
 <br/>
 <br/>

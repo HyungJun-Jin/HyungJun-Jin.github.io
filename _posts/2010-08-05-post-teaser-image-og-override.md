@@ -1,8 +1,8 @@
 ---
 title: "Post: Teaser Image with OpenGraph Override"
 header:
-  teaser: /assets/images/page-header-teaser.png
-  og_image: /assets/images/page-header-og-image.png
+  teaser: images\profile\profile_img.png
+  og_image: images\profile\profile_img.png
 categories:
   - Layout
   - Uncategorized
@@ -17,6 +17,6 @@ This post has a teaser image with an OpenGraph override.
 
 ```yaml
 header:
-  teaser: /assets/images/page-header-teaser.png
-  og_image: /assets/images/page-header-og-image.png
+  teaser: /images/profile/frofile_img.png
+  og_image: /images/profile/frofile_img.png
 ```
