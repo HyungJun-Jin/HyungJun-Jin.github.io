@@ -1,5 +1,7 @@
 ---
 title: "Layout: Header Video"
+toc: true
+toc_sticky: true
 header:
   video:
     id: -PVofD2A9t8

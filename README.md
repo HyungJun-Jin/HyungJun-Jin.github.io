@@ -41,8 +41,13 @@ https://analytics.google.com/
 **notice**: {: .notice} {: .notice--primary} {: .notice--info} {: .notice--warning} {: .notice--success} {: .notice--danger}\
 **others**: https://mmistakes.github.io/minimal-mistakes/docs/helpers/\
 **layout**: https://mmistakes.github.io/minimal-mistakes/docs/layouts/#custom-sidebar-navigation-menu\
+
+sidebar profile mouse cusor control (=hover function) : _sass/minimal-mistakes/_sidebar.scss -> .sidebar -> breakpoint -> &:hover value
+
 탈하 projects 메뉴: _includes -> archive-thumbnail.html 복붙해서 base_url 지우고, read-time.html 복붙함
 _projects 디렉터리 복붙했고, _pages에 projects.html로 탬플릿 하나 만듬
+
+font color(navigation, profile) : _sass/minimal-mistakes/_variables.scss 
 
 ### Fast Check (Local check, not Remote)
 ---
