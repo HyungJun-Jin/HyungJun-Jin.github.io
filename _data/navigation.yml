@@ -1,12 +1,15 @@
 # main links
 main:
+  - title: "HOME"
+    url: /
+    
   - title: "CV"
     url: /cv/
 
   - title: "PROJECT"
     url: /projects/
 
-  - title: "POSTS"
+  - title: "POST"
     url: /
 
   - title: "Example"
