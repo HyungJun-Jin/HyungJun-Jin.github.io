@@ -1,5 +1,24 @@
-GitHub Desktop + Typora + VScode
+### Uploading tools
+---
+ GitHub Desktop + Typora + VScode
 
+### useful Backgrounds
+---
+[Jekyll](https://jekyllrb.com/docs/liquid/) uses the [Liquid](https://shopify.github.io/liquid/)[click] templating language to process templates.\
+markdown, html, css, js files => use **liquid** language with **"Front Matter"** (start and end with "---" part) in much files of this repo
+
+### Front Matter elements
+---
+**Table of Contents**\
+toc: true or false\
+toc_sticky: true or false\
+toc_label: toc title\
+
+permalink: /represents current filename/ 💡 https://jekyllrb.com/docs/permalinks/
+
+### Dir usage
+---
+`_posts` -> `_pages`(used in navigation.yml) -> `_layouts`(used in _pages's layout tag)\
 `_pages`: Templates ( .html or .md ) are used to make "_data/navigation.yml" as url: /{filename}/\
 `_data/navigation.yml` : Navigation (=Menu)\
 `_includes/head/custom.html` : favicon\
@@ -12,6 +31,18 @@ Post comments:
 
 Google analytics:
 1. "analytics:" -> provider : [setting] (tracking_id)
+https://analytics.google.com/
+
+### Simple tips for posting
+---
+**text**: {: .text-left} {: .text-center} {: .text-right} {: .text-justify} {: .text-nowrap}\
+**botton**: {: .btn} {: .btn .btn--primary} {: .btn .btn--success} {: .btn .btn--warning} {: .btn .btn--danger} {: .btn .btn--info} {: .btn .btn--inverse} {: .btn .btn--primary .btn--x-large} {: .btn .btn--primary .btn--large} {: .btn .btn--primary} {: .btn .btn--primary .btn--small}\
+**image**: {: .align-center} {: .align-left} {: .align-right} {: .full}\
+**notice**: {: .notice} {: .notice--primary} {: .notice--info} {: .notice--warning} {: .notice--success} {: .notice--danger}\
+**others**: https://mmistakes.github.io/minimal-mistakes/docs/helpers/\
+**layout**: https://mmistakes.github.io/minimal-mistakes/docs/layouts/#custom-sidebar-navigation-menu\
+탈하 projects 메뉴: _includes -> archive-thumbnail.html 복붙해서 base_url 지우고, read-time.html 복붙함
+_projects 디렉터리 복붙했고, _pages에 projects.html로 탬플릿 하나 만듬
 
 ### Fast Check (Local check, not Remote)
 ---

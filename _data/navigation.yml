@@ -1,7 +1,10 @@
 # main links
 main:
-  - title: "About"
-    url: /archive-layout-with-content/
+  - title: "home"
+    url: /projects/
+
+  - title: "CV"
+    url: /cv/
 
   - title: "Sample Posts"
     url: /year-archive/
