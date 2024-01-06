@@ -2,7 +2,7 @@
 main:
   - title: "HOME"
     url: /
-    
+
   - title: "CV"
     url: /cv/
 
@@ -15,7 +15,8 @@ main:
   - title: "Example"
     url: /year-archive/
 
-
+  - title: "Category"
+    url: /categories/
 
 
 
