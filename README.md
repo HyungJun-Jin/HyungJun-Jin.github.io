@@ -1,3 +1,8 @@
+참고 블로그: https://mlnotebook.github.io/page/3/
+
+https://shopify.dev/docs/api/liquid/basics
+
+
 ### Uploading tools
 ---
  GitHub Desktop + Typora + VScode
