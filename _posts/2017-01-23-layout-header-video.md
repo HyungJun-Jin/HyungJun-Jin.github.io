@@ -11,10 +11,12 @@ categories:
   - Uncategorized
 tags:
   - video
-  - layout
+  - layou
 ---
 
 This post should display a **header with a responsive video**, if the theme supports it.
+{: .text-right}
+
 
 ## Settings
 

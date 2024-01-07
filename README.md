@@ -49,6 +49,9 @@ _projects 디렉터리 복붙했고, _pages에 projects.html로 탬플릿 하나
 
 font color(navigation, profile) : _sass/minimal-mistakes/_variables.scss 
 
+mobile follow botton -> _includes/author-profile.html
+
+
 ### Fast Check (Local check, not Remote)
 ---
 Refer: Quick-Start Guide -> Installation (Official documentation: http://jekyllrb.com/docs/)
